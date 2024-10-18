@@ -10,39 +10,43 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    
-   
+
+
 }
-ul{
+
+ul {
     display: flex;
     padding: 10px;
-    
+
 }
-.main_navbar li{
-   display: flex;
-   margin: 20px;
-   font-size: medium;
-   font-weight: 600;
-   
+
+.main_navbar li {
+    display: flex;
+    margin: 20px;
+    font-size: medium;
+    font-weight: 600;
+
 
 }
 
 .main_navbar a {
-   text-decoration: none;
-   color: black;
+    text-decoration: none;
+    color: black;
 }
-input{
-background-color: rgb(235, 232, 232);
-color: rgb(44, 40, 40);
-border: 2px  rgb(220, 124, 140);
-width: 270px;
-height: 40px;
-padding: 5px;
-text-align: center;
-border-radius: 5px;
-font-weight: 500;
+
+input {
+    background-color: rgb(235, 232, 232);
+    color: rgb(44, 40, 40);
+    border: 2px rgb(220, 124, 140);
+    width: 270px;
+    height: 40px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: 500;
 }
-button{
+
+button {
     background-color: #e80071;
     color: white;
     padding: 5px;
@@ -53,23 +57,27 @@ button{
     width: 90px;
     font-weight: 700;
     margin-left: 20px;
-    
+
 
 }
-.section1{
-padding-bottom: 20px;
+
+.section1 {
+    padding-bottom: 20px;
 }
-.section2 img{
+
+.section2 img {
     display: inline;
     padding: 6px;
     margin: 6px;
-    
+
 
 }
-.section3 img{
-   border-radius: 20px;
-   
+
+.section3 img {
+    border-radius: 20px;
+
 }
+
 .section4 {
     display: flex;
     justify-content: center;
@@ -80,13 +88,14 @@ padding-bottom: 20px;
 
 .section5 {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     justify-content: center;
     align-items: center;
     text-align: center;
     background-color: rgb(255, 233, 203);
 }
-.section5 img{
+
+.section5 img {
     margin: 10px;
     border-radius: 20px;
 }
